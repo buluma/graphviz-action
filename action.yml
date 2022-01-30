@@ -1,0 +1,11 @@
+name: requirementstopng
+description: Generate png from Ansible requirement.yml
+author: Michael Buluma <me@buluma.co.ke>
+
+runs:
+  using: docker
+  image: 'docker://robertdebock/github-action-graphviz:1.0.7'
+
+branding:
+  icon: loader
+  color: green
