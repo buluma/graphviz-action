@@ -1,6 +1,6 @@
-name: requirementstopng
-description: Generate png from Ansible requirement.yml
-author: Michael Buluma <me@buluma.co.ke>
+name: mbu_requirements2png
+description: Generate MBU png from Ansible requirement.yml
+author: Micheal Buluma <me@buluma.me.ke>
 
 runs:
   using: docker
