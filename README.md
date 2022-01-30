@@ -27,7 +27,7 @@ jobs:
         with:
           path: "${{ github.repository }}"
       - name: create png
-        uses: robertdebock/graphviz-action@1.0.0
+        uses: buluma/graphviz-action@1.0.0
 ```
 
 In the example above the PNG is created, but nothing is done to store the PNG.
@@ -50,7 +50,7 @@ jobs:
         with:
           path: "${{ github.repository }}"
       - name: create png
-        uses: robertdebock/graphviz-action@1.0.0
+        uses: buluma/graphviz-action@1.0.0
       - name: Commit files
         run: |
           cd ${{ github.repository }}
