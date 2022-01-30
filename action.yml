@@ -4,7 +4,7 @@ author: Micheal Buluma <me@buluma.me.ke>
 
 runs:
   using: docker
-  image: 'docker://robertdebock/github-action-graphviz:1.0.7'
+  image: 'docker://buluma/github-action-graphviz:main'
 
 branding:
   icon: loader
